@@ -11,7 +11,7 @@ int main(int argc, char **argv) {
     ASSERT(arg == 99, "arg should be ?");
     std::cout << "befor func call: " << arg << std::endl;
     func(arg);
-    ASSERT(arg == 100, "arg should be ?");
+    ASSERT(arg == 99, "arg should be ?");
     std::cout << "after func call: " << arg << std::endl;
     return 0;
 }
